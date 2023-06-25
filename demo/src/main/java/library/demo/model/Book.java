@@ -9,8 +9,7 @@ public @Data class Book {
   private String description;
   private String author;
 
-public Book(String bookId, String tittle, String description, String author) {
-    this.bookId = bookId;
+public Book(String tittle, String description, String author) {
     this.tittle = tittle;
     this.description = description;
     this.author = author;
